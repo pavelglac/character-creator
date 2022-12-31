@@ -26,6 +26,8 @@
     to prevent some funky scroll issues from happening.
   */
   position: relative;
+
+  flex-shrink: 0;
 }
 
 .toggleButton[aria-pressed='true'] {
